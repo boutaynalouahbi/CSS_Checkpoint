@@ -1,0 +1,132 @@
+
+
+body{
+    background: linear-gradient(80deg, rgb(57, 57, 217), rgb(88, 142, 207));
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+nav > a{
+    text-decoration: none;
+    font-size: larger;
+    padding: 30px ;
+}
+nav > a:link{
+   color: white;
+}
+nav > a:visited{
+   color: white;
+}
+
+nav li {
+    list-style-type: none;
+    
+}
+nav ul{
+    display: flex;
+   
+   padding: 15px ;
+  
+}
+li a{
+    text-decoration: none;
+    padding: 10px;
+    
+}
+li a:link{
+   color: white;
+    
+}
+li a:visited{
+    color: white; 
+}
+
+li a:active{
+   color: blue;
+   background-color: white;
+}
+li a:hover{
+   color: blue;
+   background-color: white; 
+}
+
+.Start a{
+   border: 1px solid white;
+   border-radius: 2px;
+   padding:5px 15px !important; 
+   margin-left: 2px; 
+}
+.Start a:link{
+   color: white;
+    
+}
+.Start a:visited{
+    color: white; 
+}
+
+.Start a:active{
+   color: blue;
+   background-color: white;
+}
+.Start a:hover{
+   color: blue;
+   background-color: white; 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:100px ;
+    flex-wrap: wrap;
+    
+    
+}
+.paragraph{
+    width:  350px;
+      height: 350px;
+      margin-top:100px;
+      color: white;
+}
+.paragraph a{
+    text-decoration: none;
+}
+
+.Form{
+    background-color: white; 
+     width:  350px;
+      height: 350px;
+      margin-top: 40px;
+}
+.Form button{
+    margin-top: 10px;
+    width: 185px;
+    height: 30px;
+    color: white;
+    background-color: rgb(79, 79, 210);
+    border-radius:20px;
+}
+.Form form{
+    
+    display: flex ; 
+    flex-direction: column;
+     align-items: center;
+}
+.item{
+    margin-top: 10px;
+}
+.price{
+    background-color: green;
+    width: 100px;
+   
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.price a{
+    color: white;
+    padding: 10px;
+}
